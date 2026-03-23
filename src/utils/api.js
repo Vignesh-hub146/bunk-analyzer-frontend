@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // In production: VITE_API_URL = your Render backend URL
 // In development: uses Vite proxy → /api → localhost:8080
-const BASE = 'https://bunk-analyzer-backend.onrender.com';
+const BASE = 'https://bunk-analyzer-backend.onrender.com/api/bunk';
 
 export async function analyzeAttendance(data) {
   const r = await axios.post(`${BASE}/analyze`, data);
