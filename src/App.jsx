@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import TimetableImport from './components/TimetableImport';
 import TimetableInput from './components/TimetableInput';
 import ResultsDashboard from './components/ResultsDashboard';
+import AuthPage from './components/AuthPage';
 import {
   analyzeAttendance, fetchBatches, fetchBatch,
   fetchLatestTimetable, deleteBatch,
